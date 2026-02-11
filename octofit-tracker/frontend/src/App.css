@@ -1,0 +1,131 @@
+
+body {
+  background: linear-gradient(135deg, #e0eafc 0%, #cfdef3 100%);
+  min-height: 100vh;
+}
+
+.App {
+  text-align: center;
+}
+
+.navbar {
+  background: linear-gradient(90deg, #007bff 0%, #00c6ff 100%) !important;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+  min-height: 56px;
+  height: 56px;
+  padding-top: 0;
+  padding-bottom: 0;
+  display: flex;
+  align-items: center;
+}
+.navbar-brand {
+  display: flex;
+  align-items: center;
+  height: 56px;
+}
+.octofit-logo {
+  max-height: 56px !important;
+  height: auto;
+  width: auto;
+  margin-right: 10px;
+  vertical-align: middle;
+  object-fit: contain;
+  display: block;
+}
+.navbar,
+.navbar-brand {
+  overflow: hidden !important;
+}
+.navbar,
+.navbar-brand {
+  overflow: hidden;
+}
+
+.navbar {
+  background: linear-gradient(90deg, #007bff 0%, #00c6ff 100%) !important;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+  min-height: 56px;
+  height: 56px;
+  padding-top: 0;
+  padding-bottom: 0;
+  display: flex;
+  align-items: center;
+}
+.navbar .container-fluid {
+  min-height: 56px;
+  height: 56px;
+  display: flex;
+  align-items: center;
+}
+.navbar-brand {
+  display: flex;
+  align-items: center;
+  height: 56px;
+}
+.navbar-brand, .navbar-nav .nav-link {
+  color: #fff !important;
+  font-weight: 600;
+  letter-spacing: 1px;
+}
+.navbar-brand:hover, .navbar-nav .nav-link.active, .navbar-nav .nav-link:hover {
+  color: #ffe082 !important;
+}
+
+h1, h2, h3, h4, h5 {
+  color: #007bff;
+  font-weight: 700;
+}
+
+.card {
+  border-radius: 1rem;
+  border: none;
+  box-shadow: 0 2px 16px rgba(0,0,0,0.07);
+}
+
+.table {
+  background: #fff;
+  border-radius: 0.5rem;
+  overflow: hidden;
+}
+.table-primary th {
+  background: #007bff !important;
+  color: #fff;
+}
+.table-striped > tbody > tr:nth-of-type(odd) {
+  background-color: #e3f2fd;
+}
+.table-hover tbody tr:hover {
+  background-color: #b3e5fc;
+}
+
+.btn, .btn-primary {
+  background: linear-gradient(90deg, #007bff 0%, #00c6ff 100%);
+  border: none;
+  color: #fff;
+  font-weight: 600;
+  border-radius: 2rem;
+  padding: 0.5rem 1.5rem;
+  transition: background 0.2s;
+}
+.btn:hover, .btn-primary:hover {
+  background: linear-gradient(90deg, #00c6ff 0%, #007bff 100%);
+  color: #ffe082;
+}
+
+a {
+  color: #007bff;
+  text-decoration: none;
+  transition: color 0.2s;
+}
+a:hover {
+  color: #00c6ff;
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+  background: #e0eafc;
+}
+::-webkit-scrollbar-thumb {
+  background: #b3e5fc;
+  border-radius: 4px;
+}
